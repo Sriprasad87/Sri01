@@ -574,11 +574,11 @@ a{
 }
 .block--skewed-right{
     padding-bottom: var(--padding-vertical) ;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
 }
 .block--skewed-left{
     padding-bottom: var(--padding-vertical) ;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
 }
 .container{
     max-width: 1140px;
@@ -754,7 +754,7 @@ picture{
 }
 img{
     width: 100%;
-    max-width: 180px;
+    max-width: 480px;
 }
 .footer__section .list{
     margin: 0;
